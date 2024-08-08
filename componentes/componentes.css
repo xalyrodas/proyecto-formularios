@@ -1,0 +1,38 @@
+#root{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.div-formulario{
+    width: 100%;
+    max-width: 100rem;
+    padding: 1rem;
+  
+    padding: 1rem;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 6rem);
+    gap: 1rem;
+
+}
+.div-formulario .item{ 
+border: 1px solid black;
+border-radius: 3px;
+font-size: 1.8rem;
+
+display: flex;
+justify-content: center;
+align-items:center ;
+}
+
+.div-formulario .item:hover {
+    border-radius: 3px;
+    background-color: rgb(20, 20, 20);
+    transition: 0.3s;
+    color: white;
+
+    box-shadow: 3px 3px 7px 3px rgb(179, 179, 179);
+}
