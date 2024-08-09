@@ -8,11 +8,11 @@ div_formulario.className = "div-formulario";
 /* lista de elementos */
  let formulario = [
     {nombre:"login",link:"componentes/loging/loging.html"},
-    {nombre:"formulario De Contacto",link:"formularioDeContacto/contacto.html"},
-    {nombre:"formulario De Registro",link:"formularioDeRegistro/contacto.html"},
-    {nombre:"formulario De Búsqueda",link:"formularioDeBusqueda/busqueda.html"},
-    {nombre:"formulario De Pedido Compras",link:"formularioDePeriodoDeCompras"},
-    {nombre:"formulario De Comentarios Reseñas",link:"formularioDeComentariosReseñas"},
+    {nombre:"formulario De Contacto",link:"componentes/formularioDeContacto/contacto.html"},
+    {nombre:"formulario De Registro",link:"componentes/formularioDeRegistro/registro.html"},
+    {nombre:"formulario De Búsqueda",link:"componentes/formularioDeBusqueda/busqueda.html"},
+    {nombre:"formulario De Pedido Compras",link:"componentes/formularioDePeriodoDeCompras/compras.html"},
+    {nombre:"formulario De Comentarios Reseñas",link:"componentes/formularioDeComentarioReseñas/reseña.html"},
 
     ];
 /* for each */ // es una funcio
