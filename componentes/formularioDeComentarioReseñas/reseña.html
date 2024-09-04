@@ -9,7 +9,27 @@
     <link rel="stylesheet" href="../../confing/config.css">
 </head>
 <body>
-    <h2>Formulario de Comentarios y Reseñas</h2>
+    <div class="container">
+        <h1>🦖¡Déjanos tu opinión!🦖</h1>
+        <div class="review-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group-3">
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" name="comment" rows="5" placeholder="Escribe tu comentario aquí..." required></textarea>
+            </div>
+            <button type="submit">Enviar Reseña</button>
+        </div>
+    </div>
+
+
+
     <script src="formulario.js"></script>
 </body>
 </html>

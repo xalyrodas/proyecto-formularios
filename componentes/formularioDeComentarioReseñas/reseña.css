@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    border: 3px solid #333; /* Borde más grueso */
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #4A3B2C; /* Color marrón prehistórico */
+    font-size: 1.8rem; /* Tamaño más grande */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; /* Fuente más antigua */
+}
+
+.review-form {
+    display: grid;
+    grid-template-rows: 7rem 7rem 1fr 3rem;
+}
+
+.form-group-3 {
+    width: 100%; /* Adaptación al contenedor */
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #6A4C41; /* Color marrón oscuro */
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #8B5E3C; /* Borde más grueso y color dino */
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #F2E6D7; /* Fondo de los campos */
+}
+
+button {
+    background-color: #BF5A35; /* Color terracota */
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9C3F1E; /* Color terracota oscuro */
+}
